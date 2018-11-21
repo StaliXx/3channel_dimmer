@@ -9,6 +9,8 @@
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include",
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini",
+                "d:/Dropbox/github/3channel_dimmer/.piolibdeps/CyberLib",
+                "d:/Dropbox/github/3channel_dimmer/.piolibdeps/_tmp_installing-d8guay-package",
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
                 "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
@@ -49,6 +51,8 @@
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include",
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini",
+                    "d:/Dropbox/github/3channel_dimmer/.piolibdeps/CyberLib",
+                    "d:/Dropbox/github/3channel_dimmer/.piolibdeps/_tmp_installing-d8guay-package",
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
                     "C:/Users/stalix/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
@@ -100,5 +104,6 @@
             "cppStandard": "c++11",
             "compilerPath": "C:/Users/stalix/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe  -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -Os -mlongcalls -mtext-section-literals -falign-functions=4 -U__STRICT_ANSI__ -ffunction-sections -fdata-sections -Wall"
         }
-    ]
+    ],
+    "version": 4
 }
