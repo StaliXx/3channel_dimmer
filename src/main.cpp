@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-#define dim1pin 4   // D2
-#define dim1pin 12  // D6
-#define dim1pin 14  // D5
+#define dimpin1 4   // D2
+#define dimpin2 12  // D6
+#define dimpin3 14  // D5
 #define zeroPin 5   // D1
 
 volatile int tic, Dimmer;
@@ -18,6 +18,14 @@ void handleInterrupt() {
 void setup() {
  
   Serial.begin(115200);
+  
+  pinMode(dimpin1, OUTPUT);
+  pinMode(dimpin2, OUTPUT);
+  pinMode(dimpin3, OUTPUT);
+  digitalWrite(dimpin1, LOW);
+  digitalWrite(dimpin2, LOW);
+  digitalWrite(dimpin3, LOW);
+
   pinMode(zeroPin, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(zeroPin), handleInterrupt, FALLING);
  
